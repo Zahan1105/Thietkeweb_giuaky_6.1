@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ cá vui nhộn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+      background-image: url('img/ocean.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+<script lang="JavaScript">
+    function change1() {
+        document.getElementById("bg").style.backgroundImage ="url(img/ocean2.jpg)";
+    }
+    function change2() {
+        document.getElementById("bg").style.backgroundImage ="url(img/ocean3.jpg)";
+    }
+    function change3() {
+        document.getElementById("bg").style.backgroundImage ="url(img/ocean4.jpg)";
+    }
+</script>
+<body id="bg">
+    <div id="content">
+        <div id="shark">
+            <img src="img/shark.png" width="auto" height="auto">
+        </div>
+        <div id="driver1">
+            <img src="img/diver1.png" alt="">
+        </div>
+        <div id="driver2">
+            <img src="img/diver2.png" alt="">
+        </div>
+        <div id="driver3">
+            <img src="img/diver3.png" alt="">
+        </div>
+        <div id="goldfish">
+            <img src="img/goldFishSchool.png" width="auto" height="auto" alt="">
+        </div>
+        <div id="faintschool">
+            <img src="img/faintSchool.png" alt="">
+        </div>
+        <div id="turtle">
+            <img src="img/turtle.png" alt="">
+        </div>
+        
+        
+    </div>
+    <button onclick="change1()">Change 1</button>
+    <button onclick="change2()">Change 2</button>
+    <button onclick="change3()">Change 3</button>
+    <div class="audio">
+        <audio controls>
+            <source src="audio/vui.mp3" type="audio/mpeg">
+          
+          </audio>
+    </div>
+</body>    
+</html>

@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#shark {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation: shark 8s infinite linear;
+    animation-play-state: running;
+}
+
+#driver1 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    animation: diver1 10s infinite linear;
+}
+
+#driver2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation: diver2 10s infinite linear;
+    animation-delay: 3s;
+}
+
+#driver3 {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    animation: diver3 10s infinite linear;
+}
+
+#goldfish {
+    top: 300px;
+    position: absolute;
+    animation: goldfish 10s infinite linear;
+}
+
+#faintschool {
+    position: absolute;
+    top: 300px;
+    animation: faintschool 10s infinite linear;
+    animation-delay: 2s;
+}
+
+#turtle {
+    position: absolute;
+    top: 300px;
+    animation: turtle 10s infinite linear;
+    animation-delay: 4s;
+}
+
+
+
+@keyframes fish {
+    0% {
+        left: 100px;
+        top: 300px;
+    }
+
+    20% {
+        left: 400px;
+        top: 300px;
+    }
+
+    40% {
+        left: 700px;
+        top: 300px;
+    }
+
+    50% {
+        left: 900px;
+        top: 250px;
+    }
+
+    60% {
+        left: 900px;
+        top: 300px;
+    }
+
+    80% {
+        left: 400px;
+        top: 300px;
+    }
+
+    100% {
+        left: 100px;
+        top: 300px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes shark {
+    0% {
+        left: 100px;
+        top: 400px;
+    }
+
+    20% {
+        left: 300px;
+        top: 400px;
+    }
+
+    40% {
+        left: 500px;
+        top: 300px;
+    }
+
+    50% {
+        left: 600px;
+        top: 50px;
+    }
+
+    60% {
+        left: 600px;
+        top: 100px;
+    }
+
+    80% {
+        left: 500px;
+        top: 200px;
+    }
+
+    100% {
+        left: 100px;
+        top: 400px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes goldfish {
+    0% {
+        left: 100px;
+        top: 300px;
+    }
+
+    20% {
+        left: 400px;
+        top: 300px;
+    }
+
+    40% {
+        left: 700px;
+        top: 300px;
+    }
+
+    50% {
+        left: 900px;
+        top: 250px;
+    }
+
+    60% {
+        left: 900px;
+        top: 300px;
+    }
+
+    80% {
+        left: 400px;
+        top: 300px;
+    }
+
+    100% {
+        left: 100px;
+        top: 300px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes faintschool {
+    0% {
+        left: 100px;
+        top: 300px;
+    }
+
+    20% {
+        left: 400px;
+        top: 300px;
+    }
+
+    40% {
+        left: 700px;
+        top: 300px;
+    }
+
+    50% {
+        left: 900px;
+        top: 250px;
+    }
+
+    60% {
+        left: 900px;
+        top: 300px;
+    }
+
+    80% {
+        left: 400px;
+        top: 300px;
+    }
+
+    100% {
+        left: 100px;
+        top: 300px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes turtle {
+    0% {
+        left: 100px;
+        top: 300px;
+    }
+
+    20% {
+        left: 400px;
+        top: 300px;
+    }
+
+    40% {
+        left: 700px;
+        top: 300px;
+    }
+
+    50% {
+        left: 900px;
+        top: 250px;
+    }
+
+    60% {
+        left: 900px;
+        top: 300px;
+    }
+
+    80% {
+        left: 400px;
+        top: 300px;
+    }
+
+    100% {
+        left: 100px;
+        top: 300px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes diver1 {
+    0% {
+        left: 100px;
+        top: 100px;
+    }
+
+    20% {
+        left: 300px;
+        top: 200px;
+    }
+
+    40% {
+        left: 400px;
+        top: 300px;
+    }
+
+    50% {
+        left: 500px;
+        top: 500px;
+    }
+
+    60% {
+        left: 400px;
+        top: 500px;
+    }
+
+    80% {
+        left: 300px;
+        top: 150px;
+    }
+
+    90% {
+        left: 200px;
+        top: 120px;
+    }
+
+    100% {
+        left: 100px;
+        top: 100px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes diver2 {
+    0% {
+        left: 100px;
+        top: 100px;
+    }
+
+    20% {
+        left: 300px;
+        top: 200px;
+    }
+
+    40% {
+        left: 400px;
+        top: 300px;
+    }
+
+    50% {
+        left: 500px;
+        top: 500px;
+    }
+
+    60% {
+        left: 400px;
+        top: 500px;
+    }
+
+    80% {
+        left: 300px;
+        top: 150px;
+    }
+
+    90% {
+        left: 200px;
+        top: 120px;
+    }
+
+    100% {
+        left: 100px;
+        top: 100px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes diver3 {
+    0% {
+        left: 200px;
+        top: 500px;
+    }
+
+    30% {
+        left: 300px;
+        top: 100px;
+    }
+
+    40% {
+        left: 400px;
+        top: 300px;
+    }
+
+    50% {
+        left: 400px;
+        top: 300px;
+    }
+
+    70% {
+        left: 400px;
+        top: 500px;
+    }
+
+    80% {
+        left: 300px;
+        top: 400px;
+    }
+
+    100% {
+        left: 200px;
+        top: 50px;
+        transform: scaleX(-1);
+    }
+}
